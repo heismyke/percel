@@ -1,0 +1,22 @@
+{
+  "name": "percel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+
+ "build": "parcel serve src/index.html",
+ "watch": "tailwindcss -i src/style.css -o src/assets/tailwind/tailwind.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.13"
+  }
+}
